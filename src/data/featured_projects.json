@@ -1,9 +1,9 @@
 {
   "projects": [
     {
-      "name": "Vizucar - S5",
-      "description": "Sélecteur multimodal permettant aux utilisateurs de chercher des images de voiture à partir d'un texte",
-      "content": ["Durant ma formation, "],
+      "name": "Vizucar",
+      "description": "A multimodal selector allowing users to search for car images based on text.",
+      "content": [],
       "image": "/vizucar-demo.gif",
       "tags": [
         {
@@ -65,7 +65,7 @@
       ],
       "links": [
         {
-          "name": "Site Web",
+          "name": "Website",
           "href": "https://www.vizucar.com",
           "icon": "globe"
         },
@@ -73,23 +73,21 @@
           "name": "Source",
           "href": "https://github.com/vizucar",
           "icon": "github"
-        },
-        {
-          "name": "Rapport",
-          "href": "/SAE501_rapport.pdf",
-          "icon": "file-text"
         }
       ]
     },
     {
-      "name": "Site de formations - S4",
-      "description": "Site web de formations en ligne qui permet aux utilisateurs de trouver des formations à leur goût ou bien d'être formateurs pour donner des formations",
+      "name": "Cov'Aire",
+      "description": "Application web permettant de chercher toutes les aires de covoiturage en France",
       "content": [
-        "Durant ma deuxième année de BUT Informatique, j'ai été amené à concevoir et réaliser un site de formations en ligne pour l'entreprise Perform Vision Consulting et à l'occasion, j'ai integré une formidable équipe de 6 personnes en tant qu'auditeur interne. L'objectif était de réaliser un audit du site de formations déjà existant en PHP. Dès le début du projet, nous avons réfléchi à une nouvelle stack technique du projet tout en essayant de garder ce qui a été fait au niveau logique métier. Pour cela, nous avons opter pour une partie back-end en Laravel, qui est un framework PHP, et côté front-end, nous sommes partis sur React, qui est un framework/librairie Javascript.",
-        "Pour ma part, je me suis principalement concentré sur la migration du code PHP existant vers le framework Laravel, avec une membre de l'équipe, et le développement de fonctionnalités comme un chat de discussion entre les formateurs et des prospect ou encore un système d'authentification. J'ai également particpé au côté front-end de l'application en développant des composants React comme le sign up et sign in et toute l'interface de discussion des formateurs et des prospects."
+        "Dans l'optique de mettre en pratique mes connaissances du Framework Spring Boot, j'ai décidé de réaliser cette application web qui permet avec une simple recherche de trouver toutes les aires de covoiturage disponibles en France grâce aux données publiées par BlaBlaCar."
       ],
-      "image": "/site-formation-demo.gif",
+      "image": "/covaire.png",
       "tags": [
+        {
+          "name": "TailwindCSS",
+          "image": "/Tailwindcss.svg"
+        },
         {
           "name": "Typescript",
           "image": "/Typescript.png"
@@ -99,27 +97,39 @@
           "image": "/React.webp"
         },
         {
-          "name": "PHP",
-          "image": "/Php.png"
+          "name": "NextJS",
+          "image": "/Nextjs.svg"
         },
         {
-          "name": "Laravel",
-          "image": "/Laravel.png"
+          "name": "Spring Boot",
+          "image": "/SpringBoot.webp"
+        },
+        {
+          "name": "Java",
+          "image": "/Javaee.png"
         },
         {
           "name": "PostgreSQL",
           "image": "/Postgresql.png"
         },
         {
-          "name": "CSS",
-          "image": "/CSS.webp"
+          "name": "Vercel",
+          "image": "/Vercel.png"
+        },
+        {
+          "name": "Docker",
+          "image": "/Docker.webp"
+        },
+        {
+          "name": "AWS",
+          "image": "/AWS.png"
         }
       ],
       "links": [
         {
           "name": "Source",
-          "href": "https://gitlab.sorbonne-paris-nord.fr/lorbh/audit-paqueta",
-          "icon": "gitlab"
+          "href": "https://github.com/mohamed-rahmani/CovAire",
+          "icon": "github"
         }
       ]
     }

@@ -25,12 +25,14 @@ export default async function Home() {
         <div className="flex flex-col">
           <h1 className="text-5xl">Mohamed RAHMANI</h1>
           <p className="mt-4 font-light">
-            Étudiant en Master 1 MIAGE - Ingénierie logicielle pour le web
+            Doing a Master&apos;s degree in Software Engineering at Univeristé
+            Paris-Saclay. I&apos;m looking for a 4-month internship starting in
+            May 2026
           </p>
           <section className="mt-4 flex items-center gap-8">
-            <Link href="/CV_Mohamed_RAHMANI.pdf" target="_blank">
+            <Link href="/Resume_Mohamed_RAHMANI.pdf" target="_blank">
               <Button variant="outline">
-                <span className="font-semibold">CV</span>
+                <span className="font-semibold">Resume</span>
                 <FileDown className="ml-2 size-5" />
               </Button>
             </Link>
@@ -45,12 +47,12 @@ export default async function Home() {
 
       <section className="flex flex-col gap-8">
         <div className="flex justify-between">
-          <h2 className="text-2xl sm:text-3xl">Mes projects ✨</h2>
+          <h2 className="text-2xl sm:text-3xl">My projects ✨</h2>
           <LinkWithIcon
             href="/projects"
             position="right"
             icon={<ArrowRightIcon className="size-5" />}
-            text="voir plus"
+            text="see more"
           />
         </div>
         <FeaturedProjects limit={LIMIT} />

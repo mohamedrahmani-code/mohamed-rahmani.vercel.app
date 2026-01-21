@@ -1,16 +1,29 @@
 {
   "career": [
     {
-      "name": "M&M",
-      "href": "/",
-      "title": "Développeur Full Stack",
-      "logo": "/M&M.png",
-      "start": "Janvier 2023",
-      "end": "Mars 2023",
+      "name": "HALIL",
+      "href": "",
+      "title": "Software Developement Intern",
+      "logo": "/halil-logo.png",
+      "start": "June 2025",
+      "end": "September 2025",
       "description": [
-        "Recueil des besoins et retours utilisateurs, analyse des tendances et bonnes pratiques en UI/UX de site de e-commerce.",
-        "Conception de l'interface du site sur Figma et draw.io et développement du site en HTML/CSS/Javascript et LIQUID.",
-        "Proposition de méthodes d'optimisation de performance du site, améliorant ainsi le score SEO à 100."
+        "Designed and deployed an internal web application for the sales team, with a NextJS frontend application, a Spring Boot REST API, and a PostgreSQL database deployed on SupaBase.",
+        "Developed and integrated a geolocation service based on the OpenStreetMap API, improving route planning and reducing customer goods preparation time.",
+        "Implemented stateless authentication via JWT to secure 100% of API endpoints"
+      ]
+    },
+    {
+      "name": "M&M",
+      "href": "",
+      "title": "Frontend Developement Intern",
+      "logo": "/M&M.png",
+      "start": "January 2024",
+      "end": "March 2024",
+      "description": [
+        "Developed the frontend of an e-commerce website by translating UX needs and best practices into e-commerce.",
+        "Creating reusable user interface components with HTML, CSS, JavaScript and LIQUID",
+        "Improved page load performance and rendering efficiency by optimizing the DOM structure and resource loading, achieving an SEO score of 100."
       ]
     }
   ]

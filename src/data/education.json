@@ -3,26 +3,26 @@
     {
       "name": "Université Paris Saclay",
       "href": "https://www.universite-paris-saclay.fr/",
-      "title": "M1 Ingénierie logicielle pour le web",
+      "title": "Master's degree in Software Engineering'",
       "logo": "/universite-paris-saclay-logo.png",
-      "start": "Septembre 2025",
-      "end": "Juillet 2027"
+      "start": "September 2025",
+      "end": "July 2027"
     },
     {
-      "name": "Université Sorbonne Paris Nord / IUT de Villetaneuse",
+      "name": "Université Sorbonne Paris Nord",
       "href": "https://www.univ-spn.fr/",
-      "title": "BUT Informatique",
+      "title": "Bachelor of Science in Computer Science",
       "logo": "/uspn.png",
-      "start": "Septembre 2022",
-      "end": "Juillet 2025"
+      "start": "September 2022",
+      "end": "July 2025"
     },
     {
       "name": "Lycée Maurice Utrillo",
       "href": "https://lyceeutrillo.fr/",
-      "title": "Baccalauréat général S, Mathématiques et Informatique option Latin et Math expert",
+      "title": "Baccalauréat général, Mathématiques et Informatique option Latin et Math expert",
       "logo": "/maurice-utrillo.png",
-      "start": "Septembre 2019",
-      "end": "Juillet 2022",
+      "start": "September 2019",
+      "end": "July 2022",
       "description": ["Mention: BIEN"]
     }
   ]

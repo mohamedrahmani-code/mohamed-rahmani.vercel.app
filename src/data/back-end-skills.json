@@ -1,6 +1,10 @@
 {
   "skills": [
     {
+      "name": "FastAPI",
+      "image": "/fastapi.svg"
+    },
+    {
       "name": "Spring Boot",
       "image": "/SpringBoot.webp"
     },

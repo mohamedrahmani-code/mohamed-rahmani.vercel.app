@@ -3,16 +3,12 @@ import ThemeToggle from "../../theme/ThemeToggle";
 
 const navLinks = [
   {
-    name: "accueil",
+    name: "home",
     href: "/",
   },
   {
-    name: "projets",
+    name: "projects",
     href: "/projects",
-  },
-  {
-    name: "contact",
-    href: "/contact",
   },
 ];
 

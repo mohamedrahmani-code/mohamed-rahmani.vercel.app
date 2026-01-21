@@ -10,7 +10,7 @@ export default function Skills() {
   return (
     <Tabs defaultValue="frontend">
       <TabsList className="mb-2 grid w-full grid-cols-2">
-        <TabsTrigger value="frontend">Langages</TabsTrigger>
+        <TabsTrigger value="frontend">Languages</TabsTrigger>
         <TabsTrigger value="backend">Frameworks</TabsTrigger>
       </TabsList>
       <TabsContent value="frontend">
@@ -21,7 +21,7 @@ export default function Skills() {
         </section>
       </TabsContent>
       <TabsContent value="backend">
-        <section className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+        <section className="grid grid-cols-1 gap-4 sm:grid-cols-3">
           {back_end_skills.map((skill, id) => (
             <SkillCard key={id} skill={skill} />
           ))}

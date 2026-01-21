@@ -43,7 +43,7 @@ export function ProjectCard({ project }: Props) {
           href={"/projects/" + name}
           className="text-xs text-blue-500 hover:underline inline w-fit"
         >
-          En savoir plus
+          Learn more
         </Link>
       </CardContent>
       <CardFooter className="flex h-full flex-col items-start justify-between gap-4">

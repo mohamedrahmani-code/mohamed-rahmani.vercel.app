@@ -1,14 +1,9 @@
 {
   "projects": [
     {
-      "name": "Vizucar - S5",
-      "description": "Sélecteur multimodal permettant aux utilisateurs de chercher des images de voiture à partir d'un texte",
-      "content": [
-        "Pour ma dernière année de BUT Informatique, j'ai eu l'occasion de réaliser un sélecteur multimodal texte vers image sur une thématique au choix dans une équipe de 4 personnes. Nous avons donc choisis par consensus de partir sur un sélecteur multimodal permettant de taper le nom d'une voiture et d'afficher les images pertinentes à la recherche.",
-        "En tant que chef de projet, j'ai accompagné le projet dans l'ensemble de son cycle de vie et dans un peu prêt toutes les tâches du projet en organisant un suivi des tickets sur Trello et leurs deadlines sur Jira.",
-        "Pour ce qui est de l'architecture du projet nous sommes partis sur un site web en NextJS pour permmettre d'installer le sélecteur, une application de bureau windows et linux pour le sélectuer multidoal en ElectronJS et une API Rest en Spring Boot avec MongoDB pour la partie back du sélecteur.",
-        "Pour ma part, je me suis concentré sur le développement du sélecteur multimodal en ElectronJS, avec la réalisation du front-end et l'integration de l'API, la mise en place de l'API Spring Boot et le déploiement de chaque composant logiciel sur AWS avec une marchine virtuelle EC2."
-      ],
+      "name": "Vizucar",
+      "description": "A multimodal selector allowing users to search for car images based on text.",
+      "content": [],
       "image": "/vizucar-demo.gif",
       "tags": [
         {
@@ -70,7 +65,7 @@
       ],
       "links": [
         {
-          "name": "Site Web",
+          "name": "Website",
           "href": "https://www.vizucar.com",
           "icon": "globe"
         },
@@ -78,25 +73,19 @@
           "name": "Source",
           "href": "https://github.com/vizucar",
           "icon": "github"
-        },
-        {
-          "name": "Rapport",
-          "href": "/SAE501_rapport.pdf",
-          "icon": "file-text"
         }
       ]
     },
     {
-      "name": "Site de formations - S4",
-      "description": "Site web de formations en ligne qui permet aux utilisateurs de trouver des formations à leur goût ou bien d'être formateurs pour donner des formations",
-      "content": [
-        "Durant ma deuxième année de BUT Informatique, j'ai été amené à concevoir et réaliser un site de formations en ligne pour l'entreprise Perform Vision Consulting et à l'occasion, j'ai integré une formidable équipe de 6 personnes en tant qu'auditeur interne.",
-        "L'objectif était de réaliser un audit du site de formations déjà existant en PHP. Dès le début du projet, nous avons donc réfléchi à une nouvelle stack technique du projet tout en essayant de garder ce qui a été fait au niveau logique métier. Pour cela, nous avons opté pour une partie back-end en Laravel, qui est un framework PHP, et côté front-end, nous sommes partis sur React, qui est un framework/librairies Javascript.",
-        "Pour ma part, je me suis principalement concentré sur la migration du code PHP existant vers le framework Laravel, avec une membre de l'équipe, et le développement de fonctionnalités comme un chat de discussion entre les formateurs et des prospect ou encore un système d'authentification. J'ai également particpé au côté front-end de l'application web en développant des composants React comme le sign up et sign in et toute l'interface de discussion des formateurs et des prospects.",
-        "Tout ça, accompagné d'un Trello avec un suivi des tickets et la mise en place d'un repo Gitlab pour le développement collaboratif."
-      ],
-      "image": "/site-formation-demo.gif",
+      "name": "Cov'Aire",
+      "description": "A web application that allows you to search for all carpooling areas in France.",
+      "content": [],
+      "image": "/covaire.png",
       "tags": [
+        {
+          "name": "TailwindCSS",
+          "image": "/Tailwindcss.svg"
+        },
         {
           "name": "Typescript",
           "image": "/Typescript.png"
@@ -106,96 +95,39 @@
           "image": "/React.webp"
         },
         {
-          "name": "PHP",
-          "image": "/Php.png"
+          "name": "NextJS",
+          "image": "/Nextjs.svg"
         },
         {
-          "name": "Laravel",
-          "image": "/Laravel.png"
+          "name": "Spring Boot",
+          "image": "/SpringBoot.webp"
         },
         {
-          "name": "PostgreSQL",
-          "image": "/Postgresql.png"
-        },
-        {
-          "name": "CSS",
-          "image": "/CSS.webp"
-        }
-      ],
-      "links": [
-        {
-          "name": "Source",
-          "href": "https://gitlab.sorbonne-paris-nord.fr/lorbh/audit-paqueta",
-          "icon": "gitlab"
-        },
-        {
-          "name": "Drive",
-          "href": "https://drive.google.com/drive/folders/15iOtA-7PCVrLGltHEZ07Hfc3FP139ri5?usp=drive_link",
-          "icon": "folder"
-        }
-      ]
-    },
-    {
-      "name": "L'architecture de Microsoft Azure - S4",
-      "description": "Analyse et présentation de l'architecture logicielle du SaaS, Microsoft Azure",
-      "content": [
-        "Au sein du module Architecture Logicielle, nous avons pour but, par binôme, d'analyser l'architecture logicielle d'une application et avec Nassim BLILIK, nous avons choisi d'analyser Mircrosoft Azure.",
-        "Pour en savoir plus, n'hésitez pas à consulter le rapport réalisé sur le sujet."
-      ],
-      "image": "/microsoft_azure.gif",
-      "tags": [],
-      "links": [
-        {
-          "name": "Site Web",
-          "href": "https://iot.m3la.org/project/2024_but_saphir_microsoft_azure/",
-          "icon": "globe"
-        },
-        {
-          "name": "Rapport",
-          "href": "/rapport_microsoft_azure.pdf",
-          "icon": "file-text"
-        }
-      ]
-    },
-    {
-      "name": "Site intranet - S3",
-      "description": "Application web permettant la gestion de services à des clients par le biais de prestataires via des bons de livraison",
-      "content": [
-        "Durant ma deuxième année de BUT Informatique, j'ai l'occasion de réaliser un site intranet permettant de gérer les relations entre les les clients et les prestataires de l'entreprise Perform Vision Consulting. J'ai donc monté une équipe de 6 personnes pour m'accompagner sur ce projet et la contrainte technique imposé par le cahier des charges était de réaliser ce projet uniquement en PHP avec une architecture MVC et une base de données Postgresql.",
-        "Au fil du projet, j'ai été amené a porter plusieurs casquette en passant par celle de chef de projet, en définissant les grandes directives du projet(Diagramme de GANTT) et les tâches à accomplir(Matrice RACI), à développeur back-end, en réalisant des fonctionnalitées comme le service de connexion et le context des composants de l'application pour chaque rôle des utilisateurs(client, prestataires, gestionnaire, commercial, composante, interlocuteur, administrateur)."
-      ],
-      "image": "/site-intranet-demo.gif",
-      "tags": [
-        {
-          "name": "HTML",
-          "image": "/HTML.png"
-        },
-        {
-          "name": "CSS",
-          "image": "/CSS.webp"
-        },
-        {
-          "name": "Javascript",
-          "image": "/Javascript.png"
-        },
-        {
-          "name": "PHP",
-          "image": "/Php.png"
+          "name": "Java",
+          "image": "/Javaee.png"
         },
         {
           "name": "PostgreSQL",
           "image": "/Postgresql.png"
         },
         {
-          "name": "WAMP Server",
-          "image": "/WAMP.png"
+          "name": "Vercel",
+          "image": "/Vercel.png"
+        },
+        {
+          "name": "Docker",
+          "image": "/Docker.webp"
+        },
+        {
+          "name": "AWS",
+          "image": "/AWS.png"
         }
       ],
       "links": [
         {
           "name": "Source",
-          "href": "https://gitlab.sorbonne-paris-nord.fr/12203379/zeengine/-/tree/main/Site/MVC?ref_type=heads",
-          "icon": "gitlab"
+          "href": "https://github.com/mohamed-rahmani/CovAire",
+          "icon": "github"
         }
       ]
     }
